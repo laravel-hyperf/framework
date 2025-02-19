@@ -51,6 +51,7 @@
         "laravel-hyperf/foundation": "dev-main",
         "laravel-hyperf/hashing": "dev-main",
         "laravel-hyperf/http": "dev-main",
+        "laravel-hyperf/http-client": "dev-main",
         "laravel-hyperf/jwt": "dev-main",
         "laravel-hyperf/log": "dev-main",
         "laravel-hyperf/mail": "dev-main",
