@@ -1,0 +1,77 @@
+{
+    "name": "laravel-hyperf/framework",
+    "type": "library",
+    "description": "The Laravel Hyperf framework.",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "laravel",
+        "hyperf",
+        "laravel-hyperf",
+        "framework",
+        "swoole"
+    ],
+    "authors": [
+        {
+            "name": "Albert Chen",
+            "email": "albert@laravel-hyperf.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/laravel-hyperf/components/issues",
+        "source": "https://github.com/laravel-hyperf/components"
+    },
+    "require": {
+        "php": ">=8.2",
+        "ext-hash": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "composer-runtime-api": "^2.2",
+        "hyperf/database-sqlite": "~3.1.0",
+        "hyperf/memory": "~3.1.0",
+        "hyperf/process": "~3.1.0",
+        "hyperf/signal": "~3.1.0",
+        "hyperf/translation": "~3.1.0",
+        "hyperf/validation": "~3.1.0",
+        "laravel-hyperf/auth": "dev-main",
+        "laravel-hyperf/broadcasting": "dev-main",
+        "laravel-hyperf/bus": "dev-main",
+        "laravel-hyperf/cache": "dev-main",
+        "laravel-hyperf/config": "dev-main",
+        "laravel-hyperf/container": "dev-main",
+        "laravel-hyperf/cookie": "dev-main",
+        "laravel-hyperf/core": "dev-main",
+        "laravel-hyperf/coroutine": "dev-main",
+        "laravel-hyperf/dispatcher": "dev-main",
+        "laravel-hyperf/encryption": "dev-main",
+        "laravel-hyperf/event": "dev-main",
+        "laravel-hyperf/filesystem": "dev-main",
+        "laravel-hyperf/foundation": "dev-main",
+        "laravel-hyperf/hashing": "dev-main",
+        "laravel-hyperf/http": "dev-main",
+        "laravel-hyperf/jwt": "dev-main",
+        "laravel-hyperf/log": "dev-main",
+        "laravel-hyperf/mail": "dev-main",
+        "laravel-hyperf/notifications": "dev-main",
+        "laravel-hyperf/object-pool": "dev-main",
+        "laravel-hyperf/prompts": "dev-main",
+        "laravel-hyperf/queue": "dev-main",
+        "laravel-hyperf/router": "dev-main",
+        "laravel-hyperf/session": "dev-main",
+        "laravel-hyperf/support": "dev-main",
+        "guzzlehttp/guzzle": "^7.8.2",
+        "nunomaduro/termwind": "^2.0",
+        "friendsofhyperf/command-signals": "~3.1.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
