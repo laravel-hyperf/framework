@@ -63,6 +63,7 @@
         "laravel-hyperf/prompts": "^0.1.14",
         "laravel-hyperf/queue": "^0.1.14",
         "laravel-hyperf/router": "^0.1.14",
+        "laravel-hyperf/scheduling": "^0.1.14",
         "laravel-hyperf/session": "^0.1.14",
         "laravel-hyperf/support": "^0.1.14",
         "guzzlehttp/guzzle": "^7.8.2",
